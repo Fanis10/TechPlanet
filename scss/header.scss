@@ -1,9 +1,21 @@
 .header {
   padding: 20px 0;
+  position: relative;
+    &__bg-left {
+      position: absolute;
+      top: 30px;
+      left: -230px;
+      width: 320px;
+      height: 320px;
+      background: #D3741D;
+      filter: blur(250px);
+    }
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 3;
   }
   &__tel {
     border: 1px solid #474747;

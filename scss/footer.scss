@@ -1,9 +1,21 @@
 .footer {
   padding: 50px 0;
+  position: relative;
+  &__bg-right {
+    position: absolute;
+    right: -230px;
+    bottom: 0;
+    background: #36C2CB;
+    filter: blur(250px);
+    width: 320px;
+    height: 320px;
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 3;
   }
   &__languages {
     display: flex;
@@ -49,16 +61,31 @@
     &-telegram {
       &:hover {
         background: #2F89CE;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
       }
     }
     &-vk {
       &:hover {
         background: #7294C7;
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
       }
     }
     &-instagram {
       &:hover {
         background: linear-gradient(43.94deg, #EEA054 16.16%, #D64763 50.11%, #B62A99 83.68%);
+        svg {
+          path {
+            fill: #fff;
+          }
+        }
       }
     }
   }
