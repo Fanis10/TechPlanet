@@ -259,7 +259,7 @@ li {
   }
 }
 .login-main {
-  padding: 60px 0 50px 0;
+  padding: 60px 0;
   position: relative;
 }
 .login-main__inner {
@@ -328,10 +328,10 @@ li {
   filter: drop-shadow(0px 0px 73px rgba(67, 157, 99, 0.71));
 }
 .login-main__item--green:hover .login-main__item-border svg path {
-  font-weight: 700;
   fill: #4D785C;
 }
 .login-main__item--green:hover .login-main__title--green {
+  font-weight: 700;
   color: #6BB485;
 }
 .login-main__item--blue2:hover {
@@ -342,10 +342,10 @@ li {
   fill: #3AD1BE;
 }
 .login-main__item--blue2:hover .login-main__border-right svg path {
-  font-weight: 700;
   fill: #3AD1BE;
 }
 .login-main__item--blue2:hover .login-main__title--blue2 {
+  font-weight: 700;
   color: #3AD1BD;
 }
 .login-main__item-border {

@@ -1,5 +1,5 @@
 .login-main {
-  padding: 60px 0 50px 0;
+  padding: 60px 0;
   position: relative;
   &__inner {
     position: relative;
@@ -84,12 +84,12 @@
         .login-main__item-border {
           svg {
             path {
-              font-weight: 700;
               fill: #4D785C;
             }
           }
         }
         .login-main__title--green {
+          font-weight: 700;
           color: #6BB485;
         }
       }
@@ -108,12 +108,12 @@
         .login-main__border-right {
           svg {
             path {
-              font-weight: 700;
               fill: #3AD1BE;;
             }
           }
         }
         .login-main__title--blue2 {
+          font-weight: 700;
           color: #3AD1BD;;
         }
       }
