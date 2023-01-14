@@ -1,0 +1,127 @@
+.header {
+  padding: 20px 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__tel {
+    border: 1px solid #474747;
+    border-radius: 4px;
+    padding: 15px 25px;
+    position: relative;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #858585;
+    img {
+      position: absolute;
+      z-index: 3;
+      top: 50%;
+      right: -18px;
+      transform: translate(0, -50%);
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      right: -7px;
+      transform: translate(0, -50%);
+      width: 15px;
+      height: 25px;
+      background: #171717;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+  &__logo {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__mail {
+    border: 1px solid #474747;
+    border-radius: 4px;
+    padding: 15px 25px;
+    position: relative;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #858585;
+    img {
+      position: absolute;
+      z-index: 3;
+      top: 50%;
+      left: -18px;
+      transform: translate(0, -50%);
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      left: -7px;
+      transform: translate(0, -50%);
+      width: 15px;
+      height: 25px;
+      background: #171717;
+    }
+    &:hover {
+      color: #478ECC;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__tel {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+    &__logo {
+      width: 100px;
+    }
+    &__mail {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    &__tel {
+      border: none;
+      span {
+        display: none;
+      }
+      img {
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &:after {
+       display: none;
+      }
+    }
+    &__logo {
+      width: 70px;
+    }
+    &__mail {
+      border: none;
+      span {
+        display: none;
+      }
+      img {
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
