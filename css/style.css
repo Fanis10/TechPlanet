@@ -393,6 +393,7 @@ li {
   min-width: 43px;
   transition: all 0.5s;
   cursor: pointer;
+  text-align: center;
 }
 .footer__language--active {
   background: #478ECC;
