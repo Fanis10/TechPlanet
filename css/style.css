@@ -5,8 +5,18 @@
 }
 @font-face {
   font-family: 'Monitorica';
+  font-weight: 400;
+  src: url("../fonts/Monitorica-Rg.woff") format("woff");
+}
+@font-face {
+  font-family: 'Monitorica';
   font-weight: 700;
   src: url("../fonts/Monitorica-Bd.otf") format("otf");
+}
+@font-face {
+  font-family: 'Monitorica';
+  font-weight: 700;
+  src: url("../fonts/Monitorica-Bd.woff") format("woff");
 }
 *,
 *::before,
